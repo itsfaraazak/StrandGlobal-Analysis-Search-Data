@@ -1,4 +1,4 @@
-# Task 1: Search and web data investigation (Google Trends, Similarweb, AppGoblin)
+# Search and web data investigation (Google Trends, Similarweb, AppGoblin)
 
 
 ## Folder map
