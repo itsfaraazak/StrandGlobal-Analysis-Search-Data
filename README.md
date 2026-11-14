@@ -42,3 +42,4 @@ python3 -m venv .venv.nosync && .venv.nosync/bin/pip install pandas numpy statsm
 - Trends values pulled today are **not** the exact values a trader would have seen at the time (sampling + Google's methodology changes). Backtest is therefore optimistic on data vintage.
 - SEC revenue is first-reported value (no restatements), so the target is point-in-time.
 # StrandGlobal-Analysis-Search-Data
+# StrandGlobal-Analysis-Search-Data
