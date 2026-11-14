@@ -1,0 +1,54 @@
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 DUOL  duolingo        131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 WING  wingstop        131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 PTON  peloton         131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 ETSY  etsy            131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 CROX  crocs           131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 CHGG  chegg           131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 SHAK  shake shack     131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 PLNT  planet fitness  131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 ELF   elf cosmetics   131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 WAYF  wayfair         131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 SONO  sonos           131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 GPRO  gopro           131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 ROKU  roku            131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 FIVE  five below      131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 FNKO  funko           131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 1 SFIX  stitch fix      131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 2 DUOL  duolingo        131 rows
+/Users/faraaz/Desktop/KCL/Year 2/Extracurriculars/StrandGlobal/QuantDev/Task1/claude-tmp/scripts/01_pull_trends.py:51: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  out["pulled_at_utc"] = dt.datetime.utcnow().isoformat(timespec="seconds")
+pull 2 WING  wingstop        131 rows

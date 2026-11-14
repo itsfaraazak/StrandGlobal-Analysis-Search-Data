@@ -1,0 +1,17 @@
+ticker,keyword,pod,n,"corr_level(svi_yoy,g)","corr_change(dsig,surprise)",hit_rate,mapping_note
+ETSY,etsy,TMT,38,0.88,0.87,0.47,"Marketplace; revenue = take rate x GMS, search ~ traffic."
+PLNT,planet fitness,Consumer,38,0.68,0.83,0.58,Revenue mixes franchise fees + equipment sales.
+WAYF,wayfair,TMT,38,0.84,0.79,0.76,Ticker is W; label WAYF used internally only.
+PTON,peloton,Consumer,28,0.84,0.65,0.54,Brand = company; also searched for news/recalls.
+FIVE,five below,Consumer,37,0.55,0.61,0.62,"Two-word brand; mostly store traffic, little e-com."
+SONO,sonos,TMT,34,0.14,0.51,0.74,"Brand = company; hardware, lumpy launches."
+WING,wingstop,Consumer,38,0.59,0.49,0.66,"Brand = company; QSR, ~US-centric sales."
+CHGG,chegg,TMT,38,0.87,0.41,0.63,Brand = company; structural decline post-ChatGPT.
+SFIX,stitch fix,Consumer,31,0.42,0.38,0.65,Two-word brand; subscription apparel.
+FNKO,funko,Consumer,38,0.59,0.28,0.61,Brand = company; wholesale to retailers (sell-in vs sell-through).
+GPRO,gopro,TMT,37,-0.08,0.2,0.57,Brand = company; hardware.
+ELF,elf cosmetics,Consumer,38,0.4,0.03,0.5,'elf' alone is ambiguous (Christmas elf) so use 'elf cosmetics'.
+ROKU,roku,TMT,38,0.39,0.03,0.5,"Revenue mostly platform/ads, not devices: weaker link expected."
+SHAK,shake shack,Consumer,38,0.42,-0.07,0.5,Two-word brand; unambiguous.
+DUOL,duolingo,TMT,18,0.59,-0.22,0.5,Brand = app = company; near 1:1 mapping.
+CROX,crocs,Consumer,38,0.1,-0.26,0.5,Revenue includes HEYDUDE since 2022 (not in keyword).

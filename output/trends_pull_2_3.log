@@ -1,0 +1,34 @@
+pull 2 DUOL  duolingo        131 rows
+pull 2 WING  wingstop        131 rows
+pull 2 PTON  peloton         131 rows
+pull 2 ETSY  etsy            131 rows
+pull 2 CROX  crocs           131 rows
+pull 2 CHGG  chegg           131 rows
+pull 2 SHAK  shake shack     131 rows
+pull 2 PLNT  planet fitness  131 rows
+pull 2 ELF   elf cosmetics   131 rows
+pull 2 WAYF  wayfair         131 rows
+pull 2 SONO  sonos           131 rows
+pull 2 GPRO  gopro           131 rows
+pull 2 ROKU  roku            131 rows
+pull 2 FIVE  five below      131 rows
+pull 2 FNKO  funko           131 rows
+pull 2 SFIX  stitch fix      131 rows
+pull 3 DUOL  duolingo        131 rows
+pull 3 WING  wingstop        131 rows
+pull 3 PTON  peloton         131 rows
+pull 3 ETSY  etsy            131 rows
+pull 3 CROX  crocs           131 rows
+  chegg: TooManyRequestsError('The request failed: Google returned a response with code 429'); retry in 25s
+pull 3 CHGG  chegg           131 rows
+pull 3 SHAK  shake shack     131 rows
+pull 3 PLNT  planet fitness  131 rows
+pull 3 ELF   elf cosmetics   131 rows
+pull 3 WAYF  wayfair         131 rows
+pull 3 SONO  sonos           131 rows
+pull 3 GPRO  gopro           131 rows
+pull 3 ROKU  roku            131 rows
+pull 3 FIVE  five below      131 rows
+pull 3 FNKO  funko           131 rows
+pull 3 SFIX  stitch fix      131 rows
+done

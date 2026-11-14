@@ -1,0 +1,69 @@
+Trends pulls: 4. Mean pairwise corr of log(1+SVI) across pulls by firm:
+         corr  mean_range_pts
+ticker                       
+CHGG    0.999            1.01
+CROX    1.000            3.62
+DUOL    0.999            2.18
+ELF     0.999            0.94
+ETSY    0.996            1.27
+FIVE    0.999            0.90
+FNKO    0.999            1.46
+GPRO    0.998            0.76
+PLNT    0.995            2.56
+PTON    1.000            0.64
+ROKU    0.996            1.52
+SFIX    0.998            1.24
+SHAK    0.994            3.05
+SONO    0.997            1.20
+WAYF    0.997            0.61
+WING    0.997            1.26
+
+Panel: 565 firm-quarters, 16 firms, 2017-06-28 to 2026-09-30
+
+=== In-sample: does the Trends signal predict revenue growth vs. baseline? ===
+A. surprise ~ dsig (all)                                n= 565 beta= 0.393 t(firm)= 3.26 t(firm+qtr)= 2.86 R2=0.120
+B. surprise ~ dsig (ex Covid 2020-21)                   n= 448 beta= 0.151 t(firm)= 2.45 t(firm+qtr)= 2.30 R2=0.032
+C. surprise ~ dsig + quarter FE (cross-sectional)       n= 565 beta= 0.478 t(firm)= 4.23 t(firm+qtr)= 2.87 R2=0.320
+D. g ~ g_prev + svi_yoy (levels)                        n= 565 beta= 0.350 t(firm)= 4.82 t(firm+qtr)= 4.41 R2=0.587
+E. g ~ g_prev + svi_yoy + firm FE                       n= 565 beta= 0.386 t(firm)= 5.41 t(firm+qtr)= 4.74 R2=0.610
+F. surprise ~ dsig, Consumer only                       n= 324 beta= 0.334 t(firm)= 1.95 t(firm+qtr)= 1.88 R2=0.102
+F. surprise ~ dsig, TMT only                            n= 241 beta= 0.499 t(firm)= 4.29 t(firm+qtr)= 3.56 R2=0.153
+
+=== Out-of-sample (expanding window, refit each quarter) ===
+OOS firm-quarters: 362 (2021Q1 to 2026Q3)
+RMSE baseline 0.1724 | baseline+Trends 0.1653 | improvement 4.1%
+MAE  baseline 0.0941 | baseline+Trends 0.1020 | improvement -8.3%
+Loss-differential t-stat (quarter-clustered): 0.61
+Directional hit rate sign(dsig)==sign(surprise): 58.3% (50% = coin flip)
+Ex-Covid OOS (302): RMSE improvement -15.5%, hit rate 56.0%
+Robustness - train & test ex-Covid (302, 2022Q1-2026Q3): RMSE improvement 0.1%, MAE improvement -1.1%, DM t=0.03
+Rank IC (Spearman dsig vs surprise, per quarter, all): mean 0.309, t=6.81, quarters=38, share>0 84%
+Rank IC (Spearman dsig vs surprise, per quarter, ex-Covid): mean 0.263, t=5.78, quarters=30, share>0 83%
+Leave-one-firm-out ex-Covid rank IC: min 0.214 (drop SONO), max 0.283
+Ex-Covid rank IC without ETSY, WAYF, PTON (Covid e-com winners): 0.262, t=4.63
+Rank IC 2023+ only: 0.255, t=3.61
+
+=== Per firm ===
+ticker        keyword      pod  n  corr_level(svi_yoy,g)  corr_change(dsig,surprise)  hit_rate
+  ETSY           etsy      TMT 38                   0.88                        0.87      0.47
+  PLNT planet fitness Consumer 38                   0.68                        0.83      0.58
+  WAYF        wayfair      TMT 38                   0.84                        0.79      0.76
+  PTON        peloton Consumer 28                   0.84                        0.65      0.54
+  FIVE     five below Consumer 37                   0.55                        0.61      0.62
+  SONO          sonos      TMT 34                   0.14                        0.51      0.74
+  WING       wingstop Consumer 38                   0.59                        0.49      0.66
+  CHGG          chegg      TMT 38                   0.87                        0.41      0.63
+  SFIX     stitch fix Consumer 31                   0.42                        0.38      0.65
+  FNKO          funko Consumer 38                   0.59                        0.28      0.61
+  GPRO          gopro      TMT 37                  -0.08                        0.20      0.57
+   ELF  elf cosmetics Consumer 38                   0.40                        0.03      0.50
+  ROKU           roku      TMT 38                   0.39                        0.03      0.50
+  SHAK    shake shack Consumer 38                   0.42                       -0.07      0.50
+  DUOL       duolingo      TMT 18                   0.59                       -0.22      0.50
+  CROX          crocs Consumer 38                   0.10                       -0.26      0.50
+
+=== Sampling-noise robustness: rerun on each Trends pull separately ===
+pull 1: ex-Covid n=448 beta=0.126 t=2.37 mean rank IC=0.262
+pull 2: ex-Covid n=448 beta=0.126 t=2.37 mean rank IC=0.262
+pull 3: ex-Covid n=448 beta=0.126 t=2.37 mean rank IC=0.262
+pull 4: ex-Covid n=448 beta=0.120 t=2.16 mean rank IC=0.255

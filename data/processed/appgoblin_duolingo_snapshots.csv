@@ -1,0 +1,5 @@
+snapshot_date,source_commit,store,store_id,installs_cumulative,rating_count,note
+2025-03-15,2f9c69971518585374cc1b5c2319a762b6f815f6,google,com.duolingo,690268677,31065323,"Google Play total installs as reported by store"
+2025-03-15,2f9c69971518585374cc1b5c2319a762b6f815f6,itunes,570060128,,3905504,"Apple does not publish installs; rating count only"
+2025-11-17,e3ef2cd76900e4e8fdc675680f232bfeaae93503,Google,com.duolingo,792024488,39313267,"Schema changed: app_name and review_count columns dropped; store label renamed"
+2025-11-17,e3ef2cd76900e4e8fdc675680f232bfeaae93503,Apple,570060128,,4680432,"Apple does not publish installs; rating count only"
