@@ -1,6 +1,5 @@
 # Task 1: Search and web data investigation (Google Trends, Similarweb, AppGoblin)
 
-Deliverable note: `Faraaz_search_web_data_note.docx` (same content in `note.md`).
 
 ## Folder map
 | Path | What |
@@ -19,15 +18,13 @@ Deliverable note: `Faraaz_search_web_data_note.docx` (same content in `note.md`)
 | `output/panel.csv`, `per_firm.csv`, `oos_predictions.csv`, `rank_ic_by_quarter.csv` | Intermediate results |
 | `output/*.png` | Charts |
 | `refs/` | Da, Engelberg & Gao (2011) PDF + text; Lind & Ramesh (2025) PDF (scanned, read manually) |
-| `EXPLAINER.md` | Plain-English explanation of every concept, script and likely question |
 
 ## Reproduce
 ```bash
-cd claude-tmp
-python3 -m venv .venv.nosync && .venv.nosync/bin/pip install pandas numpy statsmodels pytrends requests matplotlib python-docx
-.venv.nosync/bin/python scripts/02_pull_sec_revenue.py        # ~30 s
-.venv.nosync/bin/python scripts/01_pull_trends.py 3            # ~15 min (rate limited; resumable: `01_pull_trends.py 3 2`)
-.venv.nosync/bin/python scripts/03_build_signal_and_test.py
+python3 -m venv .venv && .venv/bin/pip install pandas numpy statsmodels pytrends requests matplotlib python-docx
+.venv/bin/python scripts/02_pull_sec_revenue.py        # ~30 s
+.venv/bin/python scripts/01_pull_trends.py 3            # ~15 min (rate limited; resumable: `01_pull_trends.py 3 2`)
+.venv/bin/python scripts/03_build_signal_and_test.py
 ```
 
 ## Manual alternative (no code)
@@ -36,10 +33,7 @@ python3 -m venv .venv.nosync && .venv.nosync/bin/pip install pandas numpy statsm
 3. Revenue: SEC EDGAR full-text search or `https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json`.
 
 ## Caveats
-- `.venv.nosync`: the Desktop is iCloud-synced; iCloud evicted files from a normal `.venv` and imports hung. The `.nosync` suffix stops iCloud syncing it.
-- Pulls 1-3 (13 Nov) were identical (Google caches within a day); pull 4 (14 Nov) differs by about 1.5 index points on average, correlation at least 0.986, results unchanged.
 - `pytrends` is an unofficial wrapper of the public Trends website; Google can break it or rate-limit it (we hit one stall). The official Trends API (alpha, consistent scaling, 5-year window) needs an application.
 - Trends values pulled today are **not** the exact values a trader would have seen at the time (sampling + Google's methodology changes). Backtest is therefore optimistic on data vintage.
 - SEC revenue is first-reported value (no restatements), so the target is point-in-time.
-# StrandGlobal-Analysis-Search-Data
-# StrandGlobal-Analysis-Search-Data
+
